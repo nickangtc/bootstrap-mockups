@@ -3,8 +3,10 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="css/style.css" charset="utf-8">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css" charset="utf-8">
+
   <script src="js/main.js"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
@@ -15,34 +17,34 @@
     <div id="navbar-primary" class="row">
       <!-- left side of navbar -->
       <!-- <span class="left"> -->
-      <div class="col-lg-2">
+      <div class="col-md-2">
         <img src="img/ms-logo.png" alt="microsoft logo" />
       </div>
-      <div class="col-lg-1">
+      <div class="col-md-1">
         Store
       </div>
-      <div class="col-lg-1">
+      <div class="col-md-1">
         Products
       </div>
-      <div class="col-lg-1">
+      <div class="col-md-1">
         Support
       </div>
       <!-- </span> -->
 
       <!-- right side of navbar -->
       <!-- <span class="right"> -->
-      <div class="col-lg-2 col-lg-offset-2">
+      <div class="col-md-2 col-md-offset-2">
         <input id="input-search" type="text" placeholder="Search Microsoft.com">
         <span id="icon-search" class="glyphicon glyphicon-search" aria-hidden="true"></span>
       </div>
-      <div class="col-lg-1">
+      <div class="col-md-1">
         <span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span>
       </div>
-      <div class="col-lg-1">
-        Products
+      <div class="col-md-1">
+        Yu
       </div>
-      <div class="col-lg-1">
-        Support
+      <div class="col-md-1">
+        <img src="img/profile-pic.png" alt="profile pic" />
       </div>
       <!-- </span> -->
 
@@ -50,31 +52,31 @@
   </div>
 
   <!-- Sliding featured banner (carousel) -->
-  <div class="container-fluid">
-    <div id="featured-banner" class="row spread">
-      <img src="img/spread1.png" alt="product spread" />
+  <div class="container-fluid feature">
+    <div id="features-1" class="row">
+      <img src="img/spread1.png" class="banner" alt="product spread" />
     </div>
   </div>
 
   <!-- Product features 1 -->
   <div class="container">
     <div id="features-1" class="row feature-row">
-      <div class="col-lg-3">
+      <div class="col-md-3">
         <img src="img/features1-1.png" />
         <h3 class="text-center">Limited-time offer</h3>
         <h4 class="text-center">Get $100 off select Dell XPS 13 PCs.*</h4>
       </div>
-      <div class="col-lg-3">
+      <div class="col-md-3">
         <img src="img/features1-2.png" />
         <h3 class="text-center">Xbox One S</h3>
         <h4 class="text-center">Sleeker, slimmer, sharper. Buy now.</h4>
       </div>
-      <div class="col-lg-3">
+      <div class="col-md-3">
         <img src="img/features1-3.png" />
         <h3 class="text-center">Microsoft Band</h3>
         <h4 class="text-center">Live healthier and achieve more. Buy now.</h4>
       </div>
-      <div class="col-lg-3">
+      <div class="col-md-3">
         <img src="img/features1-4.png" />
         <h3 class="text-center">Microsoft Store</h3>
         <h4 class="text-center">Prep for success with our back-to-school deals.</h4>
@@ -84,30 +86,30 @@
 
   <!-- Midpage photo spread -->
   <div class="container-fluid">
-    <div id="spread-midpage" class="row spread">
-      <img src="img/spread2.png" alt="product spread" />
+    <div id="spread-midpage" class="row">
+      <img src="img/spread2.png" class="banner" alt="product spread" />
     </div>
   </div>
 
   <!-- Product features 2 -->
   <div class="container">
     <div id="features-2" class="row feature-row">
-      <div class="col-lg-3">
+      <div class="col-md-3">
         <img src="img/features2-1.png" />
         <h3 class="text-center">New Office 365 for Enterprise</h3>
         <h4 class="text-center">Learn more about all the capabilities now available.</h4>
       </div>
-      <div class="col-lg-3">
+      <div class="col-md-3">
         <img src="img/features2-2.png" />
         <h3 class="text-center">Windows 10 Enterprise</h3>
         <h4 class="text-center">Download the free 90-day evaluation for IT professionals.</h4>
       </div>
-      <div class="col-lg-3">
+      <div class="col-md-3">
         <img src="img/features2-3.png" />
         <h3 class="text-center">Visual Studio 2015</h3>
         <h4 class="text-center">Create the next great app with our new free dev guide.</h4>
       </div>
-      <div class="col-lg-3">
+      <div class="col-md-3">
         <img src="img/features2-4.png" />
         <h3 class="text-center">Microsoft Cloud</h3>
         <h4 class="text-center">This cloud helps a global nonprofit improve healthcare.</h4>
@@ -117,19 +119,23 @@
 
   <!-- Bottom photo spread -->
   <div class="container-fluid">
-    <div id="spread-bottom" class="row spread">
-      <img src="img/spread3.png" alt="product spread" />
+    <div id="spread-bottom" class="row">
+      <img src="img/spread3.png" class="banner" alt="product spread" />
     </div>
   </div>
 
   <!-- (huge) Footer area -->
-  <div id="footer" class="container">
+  <div id="footer" class="container-fluid">
     <div id="social" class="row">
-
+      <div class="col-md-4">
+        Follow Microsoft
+        <img src="img/facebook.png" alt="facebook icon" />
+        <img src="img/twitter.png" alt="twitter icon" />
+      </div>
     </div>
 
     <div id="navbar-secondary" class="row">
-      <div class="col-lg-2">
+      <div class="col-md-2">
         <h5><a href="#">Learn</a></h5>
         <p><a href="#">Windows</a></p>
         <p><a href="#">Office</a></p>
@@ -139,7 +145,7 @@
         <p><a href="#">MSN</a></p>
       </div>
 
-      <div class="col-lg-2">
+      <div class="col-md-2">
         <h5><a href="#">Devices</a></h5>
         <p><a href="#">Microsoft Surface</a></p>
         <p><a href="#">Xbox</a></p>
@@ -149,49 +155,55 @@
         <p><a href="#">Microsoft HoloLens</a></p>
       </div>
 
-      <div class="col-lg-2">
-        <h5><a href="#">Learn</a></h5>
-        <p><a href="#">Windows</a></p>
-        <p><a href="#">Office</a></p>
-        <p><a href="#">Skype</a></p>
-        <p><a href="#">Outlook</a></p>
-        <p><a href="#">OneDrive</a></p>
-        <p><a href="#">MSN</a></p>
+      <div class="col-md-2">
+        <h5><a href="#">Microsoft Store</a></h5>
+        <p><a href="#">View account</a></p>
+        <p><a href="#">Order tracking</a></p>
+        <p><a href="#">Retail store locations</a></p>
+        <p><a href="#">Returns</a></p>
+        <p><a href="#">Sales & support</a></p>
       </div>
 
-      <div class="col-lg-2">
-        <h5><a href="#">Learn</a></h5>
-        <p><a href="#">Windows</a></p>
-        <p><a href="#">Office</a></p>
-        <p><a href="#">Skype</a></p>
-        <p><a href="#">Outlook</a></p>
-        <p><a href="#">OneDrive</a></p>
-        <p><a href="#">MSN</a></p>
+      <div class="col-md-2">
+        <h5><a href="#">Downloads</a></h5>
+        <p><a href="#">Download Center</a></p>
+        <p><a href="#">Windows downloads</a></p>
+        <p><a href="#">Windows 10 Apps</a></p>
+        <p><a href="#">Office Apps</a></p>
+        <p><a href="#">Microsoft Lumia Apps</a></p>
+        <p><a href="#">Internet Explorer</a></p>
       </div>
 
-      <div class="col-lg-2">
-        <h5><a href="#">Learn</a></h5>
-        <p><a href="#">Windows</a></p>
-        <p><a href="#">Office</a></p>
-        <p><a href="#">Skype</a></p>
-        <p><a href="#">Outlook</a></p>
-        <p><a href="#">OneDrive</a></p>
-        <p><a href="#">MSN</a></p>
+      <div class="col-md-2">
+        <h5><a href="#">Values</a></h5>
+        <p><a href="#">Diversity and inclusion</a></p>
+        <p><a href="#">Accessibility</a></p>
+        <p><a href="#">Environment</a></p>
+        <p><a href="#">Microsoft Philanthropies</a></p>
+        <p><a href="#">Corporate Social Responsibility</a></p>
+        <p><a href="#">Privacy at Microsoft</a></p>
       </div>
 
-      <div class="col-lg-2">
-        <h5><a href="#">Learn</a></h5>
-        <p><a href="#">Windows</a></p>
-        <p><a href="#">Office</a></p>
-        <p><a href="#">Skype</a></p>
-        <p><a href="#">Outlook</a></p>
-        <p><a href="#">OneDrive</a></p>
-        <p><a href="#">MSN</a></p>
+      <div class="col-md-2">
+        <h5><a href="#">Company</a></h5>
+        <p><a href="#">Careers</a></p>
+        <p><a href="#">About Microsoft</a></p>
+        <p><a href="#">Company news</a></p>
+        <p><a href="#">Investors</a></p>
+        <p><a href="#">Research</a></p>
+        <p><a href="#">Site map</a></p>
       </div>
+
     </div>
 
     <div id="legal" class="row">
-      <span class="glyphicon glyphicon-globe"></span>
+      <div class="col-md-2">
+        <span class="glyphicon glyphicon-globe"></span>
+        <span>English (United Kingdom)</span>
+      </div>
+      <div class="col-md-8 col-md-offset-2">
+
+      </div>
       <ul class="right">
         <li><a href="#">Contact us</a></li>
         <li><a href="#">Privacy & cookies</a></li>
