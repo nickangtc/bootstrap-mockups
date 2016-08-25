@@ -1,3 +1,4 @@
+
 .left {
   text-align: left;
 }
@@ -6,4 +7,29 @@
 }
 .spread {
   background-size: cover;
+}
+.feature-row {
+  height: 400px;
+}
+.glyphicon.glyphicon-globe {
+    font-size: 25px;
+    color: grey;
+}
+
+input {
+  width: 190px;
+}
+li {
+  display: inline-block;
+  margin-left: 13px;
+  margin-right: 13px;
+}
+
+#input-search {
+  position: relative;
+}
+#icon-search {
+  position: absolute;
+  top: 18%;
+  right: 0;
 }
