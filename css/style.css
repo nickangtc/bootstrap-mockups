@@ -9,10 +9,7 @@ body {
 input {
   width: 190px;
 }
-li {
-  /*margin-left: 13px;
-  margin-right: 13px;*/
-}
+
 h2, h3, h4, h5 {
   font-weight: 100;
   line-height: 1.5em;
@@ -46,6 +43,9 @@ a:hover {
 }
 .pic {
   width: 100%;
+}
+.list-unstyled {
+  line-height: 2.1em;
 }
 
 #footer {
