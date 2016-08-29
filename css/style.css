@@ -56,6 +56,12 @@ a.hover-transparent:hover {
   padding-left: 0;
   line-height: 1em;
 }
+.navbar {
+  background-color: white;
+  border: none;
+  height: 20px;
+  padding-top: 10px;
+}
 
 #footer {
   font-size: 0.9em;
